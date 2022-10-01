@@ -43,7 +43,12 @@ MAIL_FROM_NAME="${APP_NAME}"
 ```
 php artisan migrate
 ```
-
+## User creation through custom artisan command
+- Navigate your project in VS code & open terminal
+```
+php artisan user:create
+```
+The above command will ask some information for user creation. Follow the guidance.
 ## Final Execution
 ```
 php artisan serve
